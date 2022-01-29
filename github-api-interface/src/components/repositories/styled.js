@@ -22,7 +22,8 @@ export const WrapperTab = styled(Tab)`
     margin: 8px;
     user-select: none;
     cursor: pointer;
-    
+    z-index: 99999;
+    background-color: #ffffff;
 
     &:focus {
         outline: none;
@@ -32,22 +33,25 @@ export const WrapperTab = styled(Tab)`
         background: #fa8155;
         font-weight: bold;
         box-shadow: 0 0 5px #3f28eb;
+     
     }
 
 `;
 
-WrapperTabList.tabsRole = "Tab";
+//WrapperTabList.tabsRole = "Tab";
 
 export const WrapperTabPanel = styled(TabPanel)`
-    padding: 8px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-    display: none;
+    padding: 16px;
 
+    display: none;
+    margin-top: -5px;
+    
     &.is-selected {
         display: block;
+        
     }
     
-`;
+    `;
 
-WrapperTabList.tabsRole = "TabPanel";
+
+//WrapperTabList.tabsRole = "TabPanel";

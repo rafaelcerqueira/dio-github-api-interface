@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     
 `;
 
-export const WrapperUsername = styled.div`
+export const WrapperUserGeneric = styled.div`
     display: flex;
     align-items: center;
     margin-top: 8px;
@@ -57,7 +57,6 @@ export const WrapperStatusCount = styled.div`
 
 export const WrapperImage = styled.img`
     border-radius: 50%;
-    border: 5px solid #bfb8f5;
     width: 190px;
     margin: 10px;
 
